@@ -1,0 +1,80 @@
+<!Doctype html>
+<html>
+<head>
+<title>
+
+Vista Administrador
+</title>
+<link rel="stylesheet" type="text/css" href="../css/index.css" media="screen"/>
+ <link rel="stylesheet" type="text/css" href="../css/formularios.css" media="screen"/>
+ <link rel="stylesheet" type="text/css" href="../css/menu-5.css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/validacion.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/pedidos.js"></script>
+<script>
+ alert("hola");
+</script>
+</head>
+<body>
+<div class="enc">Vista Administrador</div>
+
+<div id="menu">
+<ul>
+  <li class="nivel1 primera"><a href="index.html" class="nivel1">Página </a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 1<table class="falsa"><tr><td><![endif]-->
+	
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+  </li>
+  <li class="nivel1"><a href="#" class="nivel1">Insertar</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 2<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li class="primera"><a href="#" onclick="cargar('inproductos.html'); return false">Productos</a></li>
+		<li><a href="#" onclick="cargar('inpedidos.html'); return false">Pedidos</a></li>
+		<li><a href="#">Ventas</a></li>
+	
+		
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1"><a href="#" class="nivel1">Modificar</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 3<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li class="primera"><a href="#" onclick="cargar('modproductos.html'); return false">Productos</a></li>
+		<li><a href="#" onclick="cargar('modclientes.html'); return false">Clientes</a></li>
+		<li><a href="#" onclick="cargar('modproductos.html'); return false">Productos</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1"><a href="#" class="nivel1">Ver</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 4<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li class="primera"><a href="#" onclick="cargar('../php/consultaclientes.php'); return false">Clientes</a></li>
+		<li><a href="#" onclick="cargar('../php/consultaproductos.php'); return false">Productos</a></li>
+		<li><a href="#" onclick="cargar('../php/consultapedidos.php'); return false">Pedidos</a></li>
+		<li><a href="" onclick="cargar('../php/consultaventas.php'); return false">Ventas</a></li>
+                <li><a href="">Ventas por día</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+  <li class="nivel1"><a href="#" class="nivel1">Borrar</a>
+<!--[if lte IE 6]><a href="#" class="nivel1ie">Opción 5<table class="falsa"><tr><td><![endif]-->
+	<ul>
+		<li class="primera"><a href="#" onclick="cargar('borrarproductos.html'); return false">Productos</a></li>
+		<li><a href="#" onclick="cargar('borrarclientes.html'); return false">Clientes</a></li>
+		<li><a href="#" onclick="cargar('borrarpedido.html'); return false">Pedidos</a></li>
+	</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+
+</div>
+<div id="contenido">
+     
+<div>
+
+</body>
+</head>
+</html>

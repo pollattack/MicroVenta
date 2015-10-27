@@ -1,0 +1,89 @@
+<!Docktype html>
+<head>
+<title>Accesorios</title>
+ <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../css/imagenes.css" media="screen"/>
+</head>
+<body>
+<div class="enc">Accesorios</div>
+<div class="playerash">
+
+	<div class="plah">
+	<img src="../img/accesorios/ac_1.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/accesorios/ac_2.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/accesorios/ac_3.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+        <img src="../img/accesorios/ac_4.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/accesorios/ac_5.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+	
+	<div class="plah">
+	<img src="../img/accesorios/ac_6.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+        <img src="../img/accesorios/ac_7.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+        <img src="../img/accesorios/ac_8.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>	
+
+	<div class="plah">
+	<img src="../img/accesorios/ac_9.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+
+	<div class="plah">
+        <img src="../img/accesorios/ac_10.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+        <div class="plah">
+        <img src="../img/accesorios/ac_11.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+
+       
+
+        <div class="plah">
+        <img src="../img/accesorios/ac_14.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+        <div class="plah">
+        <img src="../img/accesorios/ac_15.jpg"/><br>
+	<<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+        <div class="plah">
+        <img src="../img/accesorios/ac_16.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+</div>
+
+
+</body>
+</html>

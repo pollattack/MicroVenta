@@ -1,0 +1,84 @@
+<html>
+ <head>
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="../css/stiles.css" type="text/css" media="screen">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="../js/validacion.js"></script>
+  <script>
+
+
+
+function archivo(a)//a toma el valor de el tipo de accion insertar.php
+{		
+     document.regg.action=a;
+
+}
+
+
+</script>
+ </head>
+ <body>
+ <div class="enc">Registrarse</div>
+ 
+  <div id="centro">
+  
+  <fieldset>
+   <legend><span>Registrarse</span></legend>
+   <form action="" method="post"  id="contact" name="regg" onsubmit="return validarF(this);">
+   
+   <label for="e-mail">E-mail <span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="emai" id="email" value="" requerido="">
+   
+         
+
+   <label for="contra">Contrase&ntilde;a<span>(requerido)</span></label>
+   <input tabindex="2" type="password" name="con" id="contra" value="" requerido="">
+   
+    <label for="contra">Repite Contrase&ntilde;a<span>(requerido)</span></label>
+   <input tabindex="2" type="password" name="con2" id="contra2" value="" requerido="">
+   
+   <label for="name">Nombre <span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="nombre" id="name" value="" requerido="">
+   
+   <label for="ap">Apellido Paterno<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="ap" id="ap" value="" requerido="">
+   
+   <label for="ap">Apellido Materno<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="am" id="am" value="" requerido="">
+   
+     <label for="ap">Telefono<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="tel" id="te" value="" requerido="">
+   
+   
+   <label for="calle">Calle<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="calle" id="calle" value="" requerido="">
+   
+   <label for="ncalle"> No Calle<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="ncalle" id="email" value="" requerido="">
+   
+   <label for="col">Colonia<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="colonia" id="col" value="" requerido="">
+   
+   <label for="cp">Codigo Postal<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="cp" id="cp" value="" requerido="">
+   
+   
+     <label for="cp">Ciudad<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="ciu" id="ciu" value="" requerido="">
+   
+   <label for="radios">Acepta teminos y condiciones</label>
+   <input type="radio" name="radio" value="radio"/>
+   
+   <input id="aceptar" tabindex="5" type="submit" name="Aceptar" value="Aceptar" class="send" onclick="archivo('../php/registrar.php');pregunta()"></submit>
+   </form>
+  <script>function pregunta(){ 
+   if (confirm('¿Estas seguro de Registrarte?')){ 
+   regg.sudmit().focus();
+      
+   } 
+} 
+  </script>
+  </fieldset>
+  </div>
+ </body>
+</html>

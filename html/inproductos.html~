@@ -1,0 +1,53 @@
+<html>
+ <head>
+  <title>Iniciar Sesion</title>
+  <link rel="stylesheet" href="../css/stile.css" type="text/css" media="screen">
+  <script type="text/javascript" src="../js/valadm.js"></script>
+    <script>
+
+
+
+function archivo(a)//a toma el valor de el tipo de accion insertar.php
+{		
+     document.inproductos.action=a;
+
+}
+
+
+</script>
+ </head>
+ <body>
+  <div class="enc">Insertar Productos</div>
+  <div id="centroo">
+  <fieldset>
+   <legend><span>Insertar Productos</span></legend>
+   <form action="" method="post" name="inproductos" id="contact" onsubmit="return validarForm(this);">
+   
+   <label for="">Tipo Articulo <span>(requerido)</span></label><a name="e-mail"></a>
+
+   <input tabindex="1" type="text" name="tipo_articulo" id="tipo_articulo" value="" requerido="">
+   
+   <label for="contra">Talla<span>(requerido)</span></label><a name="add"></a>
+
+   <input tabindex="2" type="text" name="talla" id="talla" value="" requerido="">
+
+   
+   <label for="contra">Sexo<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="sexo" id="sexo" value="" requerido="">
+
+   <label for="contra">Precio<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="precio" id="precio" value="" requerido="">
+
+   <label for="contra">Marca<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="marca" id="marca" value="" requerido="">
+
+   <label for="contra">Existencia<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="ex" id="ex" value="" requerido="">
+   
+   <input tabindex="5" type="submit" name="Aceptar" id="send" value="Aceptar" onclick="archivo('../php/inproductos.php');"></input>
+
+   </form>
+  </fieldset>
+  </div>
+ </body>
+<html>

@@ -1,0 +1,87 @@
+
+
+#registro{
+              font: 80% "Trebuchet MS", Arial, Helvetica, sans-serif;
+             margin-left:60%;
+           }
+#registro ul, li {
+              list-style-type: none;
+            
+          }
+
+
+#registro ul {
+        margin:0px;
+        padding: 8px;
+}
+
+#registro li {
+        float: left;
+        
+           }
+
+#registro a {
+        text-decoration: none;
+        color: black;
+        font-size:15px;
+        display: block;
+        padding: 3px 10px;
+        text-align: center;
+      
+        }
+
+*{
+	margin:0px;
+	padding:0px;
+ }
+
+
+#menu{
+	   margin:auto;
+	   width:500px;
+	   font-family:Arial, Helvetica, sans-serif;
+      }
+ul,ol{
+	 list-style:none;
+      }
+#nav li a{
+            background:gray;
+            color:#fff;
+            text-decoration:none;
+            padding:10px 15px;
+            display: block;	
+             
+          }  
+#nav > li{
+             float:left;	    
+          } 
+#nav li a:hover{
+	            background-color:#434343;
+                    color:yellow;
+                }        
+                
+#nav li ul{
+	      display:none;
+	      position:absolute;
+	      min.width: 140px;
+          }      
+#nav li:hover > ul{
+	        display:block;
+}
+
+
+#enlaces{  
+       
+        }
+.follow{
+         background-color:gray;
+         margin:4px;
+         color:#fff;
+         padding:0px;
+       
+     
+       }
+.contacto{float:left;
+          margin-top:-740px;
+          font-size:.8em;
+       }     

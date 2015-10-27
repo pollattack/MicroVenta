@@ -1,0 +1,35 @@
+
+
+
+#marca1{
+        background:white;
+         width:15%;
+         height:920px;
+         margin:0px 0px;
+         position:relative;
+        }
+
+#marca2{
+         width:15%;
+         height:920px;
+         background:white;
+		 margin:0px 85%;
+         position:white;
+        }
+#playerash{ 
+            
+          }
+.plah{
+      float:left;
+      margin-left:25px;
+      margin-bottom:15px;
+     }
+.compras{
+          border:none;
+	 background-color:#323131;;
+	 color:#fff;
+	 font-weight:bolder;
+	 padding:5px 10px;
+	 text-decoration:none;
+         }
+p{text-align:center;}

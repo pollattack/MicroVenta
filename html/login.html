@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registro</title>
+<link rel="stylesheet" href="../css/stile.css" type="text/css" media="screen">
+  <script type="text/javascript" src="../js/validacion.js"></script>
+<style>
+
+#send{
+      background:green;
+      }
+</style>
+</head>
+
+<body>
+
+<div class="enc">Iniciar Secion Usuario</div>
+  <div id="centro">
+  <fieldset>
+   <legend><span>Iniciar Sesi&oacute;n</span></legend>
+   <form action="../php/login.php" method="post" name="isesion" id="contact" onsubmit="return validarForm(this);">
+   
+   <label for="">Usuario <span>(requerido)</span></label><a name="el"></a>
+
+   <input tabindex="1" type="text" name="user" id="nombre" value="" requerido="">
+   
+   <label for="contra">Contase&ntilde;a <span>(requerido)</span></label><a name="add"></a>
+
+   <input tabindex="2" type="password" name="pass" id="contra" value="" requerido="">
+   
+   <button tabindex="5" type="submit" name="Aceptar" id="send" value="">Aceptar</button>
+
+   </form>
+  </fieldset>
+  </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,72 @@
+<html>
+ <head>
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="../css/stiles.css" type="text/css" media="screen">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" src="../js/validacion.js"></script>
+  
+ </head>
+ <body>
+ <div class="enc">Registrarse</div>
+ 
+  <div id="centro">
+  
+  <fieldset>
+   <legend><span>Registrarse</span></legend>
+   <form action="" method="post"  id="contact" name="reg" onsubmit="return validarreg(this);">
+   
+   <label for="e-mail">E-mail <span>(requerido)</span></label>
+   <input tabindex="1" type="email" name="email" id="email" value="" requerido="">
+   
+   <label for="contra">Contrase&ntilde;<span>(requerido)</span></label>
+   <input tabindex="2" type="password" name="con" id="contra" value="" requerido="">
+   
+    <label for="contra">Repite Contrase&ntilde;a<span>(requerido)</span></label>
+   <input tabindex="2" type="password" name="con2" id="contra" value="" requerido="">
+   
+   <label for="name">Nombre <span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="nombre" id="name" value="" requerido="">
+   
+   <label for="ap">Apellido Paterno<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="ap" id="ap" value="" requerido="">
+   
+   <label for="am">Apellido Materno<span>(requerido)</span></label
+   <input tabindex="1" type="text" name="am" id="am" value="" requerido="">
+   
+   <label for="radios">Sexo</label>
+   <label for="radios">Hombre</label>
+   <input type="radio" name="opciones" checked="checked" value="hombre"/>
+   <label for="radios">Mujer</label> 
+   <input type="radio" name="opciones" value="mujer"/>
+   
+   
+   <label for="calle">Calle<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="calle" id="calle" value="" requerido="">
+   
+   <label for="ncalle"> No Calle<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="ncalle" id="email" value="" requerido="">
+   
+   <label for="col">Colonia<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="colonia" id="col" value="" requerido="">
+   
+   <label for="cp">Codigo Postal<span>(requerido)</span></label>
+   <input tabindex="1" type="text" name="cp" id="cp" value="" requerido="">
+   
+   
+   <label for="m">Municipio<span>(requerido)</span></label>
+   <select tabindex="4">
+   <option value="1">Zacualtipan</option>
+   <option value="2">Molango</option>
+   <option value="3">Tianguistengo</option>
+   <option value="4">San Agustin</option>
+   
+   
+   <label for="radios">Acepta teminos y condiciones</label>
+   <input type="radio" name="radio" value="radio"/>
+   
+   <button id="aceptar" tabindex="5" type="submit" name="Aceptar" class="send">Enviar</button>
+   </form>
+  </fieldset>
+  </div>
+ </body>
+</html>

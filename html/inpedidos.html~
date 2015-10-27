@@ -1,0 +1,78 @@
+<html>
+ <head>
+  <title>Iniciar Sesion</title>
+  <link rel="stylesheet" href="../css/stile.css" type="text/css" media="screen">
+  <script type="text/javascript" src="../js/validacion.js"></script>
+   <script type="text/javascript" src="../js/valadm.js"></script>
+    <script>
+
+
+
+function archivo(a)//a toma el valor de el tipo de accion insertar.php
+{		
+     document.inpedidos.action=a;
+
+}
+
+
+</script>
+<style>
+
+#centrooo{
+background:#111111;
+width:300px;
+height:680px;
+margin:60px auto;
+padding-left:20px;
+padding-top:5px;
+-moz-border-radius:12px;-webkit-border-radius:12px;
+}
+
+</style>
+ </head>
+ <body>
+  <div class="enc">Insertar Productos</div>
+  <div id="centrooo">
+  <fieldset>
+   <legend><span>Insertar Pedidos</span></legend>
+   <form action="" method="post" name="inpedidos" id="contact" onsubmit="return validarForm(this);">
+   
+   <label for="">Clv_cliente<span>(requerido)</span></label><a name="e-mail"></a>
+
+   <input tabindex="1" type="text" name="clv_cliente" id="clv_cliente" value="" requerido="">
+   
+   <label for="contra">Clv_articulo<span>(requerido)</span></label><a name="add"></a>
+
+   <input tabindex="2" type="text" name="clv_articulo" id="clv_articulo" value="" requerido="">
+
+   
+   <label for="contra">Fecha Solicitud<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="fechap" id="fechap" value="" requerido="">
+
+   <label for="contra">Calle<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="calle" id="calle" value="" requerido="">
+
+   <label for="contra">Numero de  Calle<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="ncalle" id="ncalle" value="" requerido="">
+
+   <label for="contra">Colonia<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="col" id="col" value="" requerido="">
+
+   <label for="contra">Codigo Postal<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="cp" id="cp" value="" requerido="">
+   
+   <label for="contra">Ciudad<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="ciu" id="ciu" value="" requerido="">
+
+   <label for="contra">Cantidad<span>(requerido)</span></label><a name="add"></a>
+   <input tabindex="2" type="text" name="cant" id="cant" value="" requerido="">
+
+  
+
+   <input tabindex="5" type="submit" name="Aceptar" id="send" value="Aceptar" onclick="archivo('../php/inpedidos.php');"></input>
+
+   </form>
+  </fieldset>
+  </div>
+ </body>
+<html>

@@ -1,0 +1,82 @@
+body{ 
+     background:#323131;
+      margin:0px;
+    }
+
+#contenedor{ 
+              background:#fff;
+              width:100%;
+              height:1000px;
+              margin:auto;
+           }
+#cabecera{
+          background:#ffffff;
+          width:100%;
+          height:40px;
+          margin:0px;
+         }
+#cabecera2{
+          background:#323131;
+          width:100%;
+          height:40px;
+         
+
+         }
+#cuerpo{
+          background:#ffffff;
+          width:100%;
+          height:920px;
+          margin:0px auto;
+          margin-bottom:0px;
+          
+       }
+#promociones{
+          background:white;
+          width:17%;
+          height:918px;
+          margin:-920 15%;
+		  position:relative;
+          
+       }
+#contenido{
+          background:white;
+          width:53%;
+          height:920px;
+          margin:-920px 32.1%;
+		 overflow:auto;  
+          		  
+}
+.enc{
+     background:#323131;
+     width:100%;
+     height:20px;
+     color:#fff;
+     margin-top:5px;
+     text-align:center;     
+
+    }
+#centro{
+        margin-left:40px;
+       }
+
+#inicio{
+ width:80%;
+     height:400px;
+       padding:50px 50px;
+        }
+
+
+#pie{
+     background:#323131;
+     width:100%;
+     height:200px;
+	 margin-top:20px;
+	 margin-left:45%; 
+
+
+     }
+
+#redes_sociales{
+                 padding:0px 40px;
+                }
+			  

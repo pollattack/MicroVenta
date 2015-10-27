@@ -1,0 +1,145 @@
+<?php
+
+include("conexion.php");
+
+mysql_select_db("tienda_online",$conectar);
+$sql="select * from clientes";
+
+$consulta=mysql_query($sql,$conectar);//prepara la consulta y ejecuta
+
+$fila=mysql_num_rows($consulta);//Se extrae el numero de filas de la consulta
+
+echo" <link rel='stylesheet' href='../css/stile.css' type='text/css' media='screen'>";
+echo"<div class='enc'>Clientes</div>";
+
+echo"</br>";
+echo"</br>";
+
+echo"<table border=1";
+echo"<tr>";
+
+echo"<td>";
+echo("Clv_cliente");
+echo"</td>";
+
+echo"<td>";
+echo("Nombre");
+echo"</td>";
+
+echo"<td>";
+echo("Apaterno");
+echo"</td>";
+
+echo"<td>";
+echo("Amaterno");
+echo"</td>";
+
+echo"<td>";
+echo("Calle");
+echo"</td>";
+
+echo"<td>";
+echo("NCalle");
+echo"</td>";
+
+echo"<td>";
+echo("Colonia");
+echo"</td>";
+
+echo"<td>";
+echo("Codigo_P");
+echo"</td>";
+
+echo"<td>";
+echo("Ciudad");
+echo"</td>";
+
+echo"<td>";
+echo("Telefono");
+echo"</td>";
+
+echo"<td>";
+echo("E-mail");
+echo"</td>";
+
+
+
+
+
+
+echo"</tr>";
+if($fila>0)
+  {
+
+      for($i=0;$i<$fila;$i++)
+        {
+$rs=mysql_fetch_array($consulta);//ejecuta la consulta
+              echo"<tr>";
+            echo"<td>";
+            echo($rs['Clv_cliente']);
+            echo(" ");
+            echo"</td>"; 
+
+            echo"<td>";
+            echo($rs['Nombre']);
+            echo(" ");
+            echo"</td>";
+           
+             echo"<td>";
+            echo($rs['Apaterno']);
+            echo(" ");
+            echo"</td>";
+
+	 echo"<td>";
+            echo($rs['Amaterno']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['Calle']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['NCalle']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['Colonia']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['Codigo_postal']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['Ciudad']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['Telefono']);
+            echo(" ");
+            echo"</td>";
+
+ echo"<td>";
+            echo($rs['e_mail']);
+            echo(" ");
+            echo"</td>";
+
+ 
+
+
+            
+        
+        } 
+      
+        
+  }
+   
+  echo"</table>";
+mysql_close($conectar);
+?>

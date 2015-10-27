@@ -1,0 +1,26 @@
+body
+{
+  background:#495051;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  line-height:18px;
+  color:#383838;
+}
+
+#wrapper
+{
+  width:900px;
+  height:700px;
+  padding:20px 30px;
+  margin:0 auto;
+  background:#FFFFFF;
+  overflow:hidden;
+}
+
+
+/*********************************************************************
+ * General, default styles
+ *********************************************************************/
+
+
+

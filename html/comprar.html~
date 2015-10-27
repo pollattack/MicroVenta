@@ -1,0 +1,83 @@
+<!Doctype html>
+
+<html>
+<head>
+<title>Compras</title>
+ <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen"/>
+ <link rel="stylesheet" type="text/css" href="../css/formularios.css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="../js/validacion.js"></script>
+</head>
+<body>
+<div class="enc">Compras</div>
+<div id="reg">
+
+<fieldset><legend><b>Facturación-Cliente Registrado</b></legend><br>
+<form action="" method="post" name="fn" onsubmit="return validarfn(this);">
+<b>E-mail</b><br/>
+
+<input type="email" name="email" value="" required!/><br>
+
+<b>No Tarjeta</b><br>
+<input type="password" name="nt" value=""/><br>
+
+
+<input id="aceptar" type="submit" name="Aceptar" value="Aceptar"/><br></form><br>
+</fieldset></br>
+
+
+
+<fieldset><legend><b>Facturación-Cliente-Normal</b></legend><br>
+<form action="index.html" method="post" name="fp" onsubmit="return validarfp(this);">
+<b>E-mail</b><br/>
+
+<input type="text" name="correo" value=""/><br>
+
+<b>Nombre</b><br>
+<input type="text" name="nombre" value=""/><br>
+
+
+<b>Apellido Paterno</b><br>
+<input type="text" name="ap" value=""/><br>
+
+<b>Apellido Materno</b><br>
+<input type="text" name="am" value=""/><br>
+
+<b>Telefono</b><br>
+<input type="text" name="tel" id="tel" value=""/><br>
+
+
+
+<b>Calle</b><br>
+<input type="text" name="ca" value=""/><br>
+
+<b>No calle</b><br>
+<input type="text" name="nca" id="nca" value=""/><br>
+
+<b>Colonia</b><br>
+<input type="text" name="col" value=""/><br>
+
+<b>Codigo Postal</b><br>
+<input type="text" name="cp" id="cp" value=""/><br>
+
+<label for="m">Municipio</label> 
+<select id="m" name="m">
+<option value="" selected="selected">- selecciona -</option>
+<option value="z">Zacualtipan</option>
+<option value="m">Molango</option>
+<option value="l">Tianguistengo</option>
+<option value="l">San Agustin</option>
+<option value="otro">Otro</option>
+</select><br><br>
+
+
+<b>No Tarjeta</b><br>
+<input type="password" name="ntp" id="ntp" value=""/><br>
+
+
+<input id="aceptar" type="submit" name="Aceptar" value="Aceptar"/><br></form><br>
+</fieldset>
+
+</div>
+</body>
+</html>

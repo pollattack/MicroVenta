@@ -1,0 +1,50 @@
+<html>
+ <head>
+  <title>Iniciar Sesion</title>
+  <link rel="stylesheet" href="../css/stile.css" type="text/css" media="screen">
+  <script type="text/javascript" src="../js/validacion.js"></script>
+<script type="text/javascript" src="../js/pedidos.js"></script>
+    <script>
+
+
+
+function archivo(a)//a toma el valor de el tipo de accion insertar.php
+{		
+     document.modproductos.action=a;
+
+}
+
+
+</script>
+<style>
+
+#centrooo{
+background:#111111;
+width:300px;
+height:270px;
+margin:60px auto;
+padding-left:20px;
+padding-top:5px;
+-moz-border-radius:12px;-webkit-border-radius:12px;
+}
+</style>
+ </head>
+ <body>
+  <div class="enc">Modificar Productos</div>
+  <div id="centrooo">
+  <fieldset>
+   <legend><span>Modificar Productos</span></legend>
+
+   <form action="" method="post" name="modproductos" id="contact" onsubmit="return validarForm(this);">
+
+   <label for="">Clv_Articulo <span>(requerido)</span></label><a name="e-mail"></a>
+   <input tabindex="1" type="text" name="clv_articulo" id="clv_articulo" value="" requerido="">
+   
+  
+   <input tabindex="5" type="submit" name="Aceptar" id="send" value="modificar" onclick="archivo('../php/modproductos.php');" ></input>
+
+   </form>
+  </fieldset>
+  </div>
+ </body>
+<html>

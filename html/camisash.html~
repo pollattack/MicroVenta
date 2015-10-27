@@ -1,0 +1,66 @@
+<!Docktype html>
+<head>
+<title>Hombres</title>
+ <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="../css/imagenes.css" media="screen"/>
+</head>
+<body>
+<div class="enc">Camisas</div>
+<div class="playerash">
+
+	<div class="plah">
+	<img src="../img/camisash/c_1.jpg"/><br>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/camisash/c_2.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/camisash/c_3.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+        <img src="../img/camisash/c_4.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/camisash/c_5.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+	
+	<div class="plah">
+	<img src="../img/camisash/c_6.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/camisash/c_7.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+	<div class="plah">
+	<img src="../img/camisash/c_8.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>	
+
+	<div class="plah">
+	<img src="../img/camisash/c_9.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+
+	<div class="plah">
+        <img src="../img/camisash/c_10.jpg"/>
+	<p><a  class="compras" href="#cuerpo" onclick="cargar('comprar.html')">Comprar</a><p>
+	</div>
+
+</div>
+
+
+</body>
+</html>
